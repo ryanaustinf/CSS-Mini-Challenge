@@ -1,0 +1,153 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: rgb(64,64,64);
+}
+
+div#widget {
+	position:relative;
+	/*text-align: right;*/
+	float:right;
+	width:275px;
+}
+
+li.widget {
+	display:inline;
+	padding-right:5px;
+}
+
+a.widgetLink {
+	text-decoration:none;
+	color:#000;
+}
+
+a.widgetLink:hover {
+	text-decoration:underline;
+}
+
+div#options {
+	position:relative;
+	top:-25px;
+	left:125px;
+	background-image:url("icons.png");
+	background-position:-326px -52px;
+	width:30px;
+	height:30px;
+	opacity:0.5;
+}
+
+div#options:hover {
+	opacity:1.0;
+}
+
+button#signIn {
+	position:relative;
+	top:-50px;
+	left:150px;
+	background-color:rgb(69,134,245);
+	color:#FFF;
+	border: rgb(69,134,245) solid;
+	border-radius:2px;
+}
+
+button#signIn:hover {
+	box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+div#title {
+	text-align:center;
+	position:relative;
+	top:180px;
+	left:160px;
+}
+
+img#theLogo {
+	width:269px;
+}
+
+div#search {
+	width:542px;
+	height:23px;
+	border:1px solid rgba(0,0,0,0.15);
+	position:relative;
+	top:200px;
+	margin:auto;
+}
+
+div#search:hover {
+	border:1px solid rgba(0,0,0,0.3);
+}
+
+input#search {
+	width:524px;
+	position:relative;
+	left:-7px;
+}
+
+img#mic {
+	width:17px;
+	height:23px;
+	opacity:0.8;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+img#mic:hover {
+	opacity:1.0;
+}
+
+div#buttons {
+	position:relative;
+	text-align:center;
+	top:250px;
+	left:30px;
+	margin:auto;
+}
+
+button.buttons {
+	font-family: Arial, sans-serif;
+	font-weight:bold;
+	font-size: 11px;
+	background-color:rgb(243, 243, 243);
+	border: 1px solid rgba(0,0,0,0.098);
+	color:rgb(68,68,68);
+}
+
+button.buttons:hover {
+	border: 1px solid rgba(0,0,0,0.1);
+	color:rgb(34,34,34);
+	box-shadow:0 1px 0 rgba(0,0,0,0.15);
+}
+
+p#translate {
+	font: 13px Arial,sans-serif;
+}
+
+a.translate {
+	text-decoration:underline;
+	color:blue;
+}
+
+footer {
+	background-color:rgb(242,242,242);
+	border: rgb(228,228,228) solid 1px;
+	color:rgb(34,34,34);
+	font: 13px Arial,sans-serif;
+	width:98%;
+	position:absolute;
+	bottom:0;
+}
+
+div#left {
+	float:left;
+}
+
+div#right {
+	float:right;
+}
+
+li.inlineList {
+	display:inline;
+	margin:2px;
+}

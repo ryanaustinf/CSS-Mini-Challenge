@@ -58,16 +58,18 @@ div#title {
 	text-align:center;
 	position:relative;
 	top:180px;
-	left:160px;
+	margin:auto;
+	width:100%;
 }
 
 img#theLogo {
 	width:269px;
+	position:relative;
+	left:160px;
 }
 
 div#search {
-	width:542px;
-	height:23px;
+	width:524px;
 	border:1px solid rgba(0,0,0,0.15);
 	position:relative;
 	top:200px;
@@ -76,12 +78,16 @@ div#search {
 
 div#search:hover {
 	border:1px solid rgba(0,0,0,0.3);
+	padding:0;
+}
+
+div#search:active {
+	border:1px solid rgb(66,133,244);
 }
 
 input#search {
 	width:524px;
 	position:relative;
-	left:-7px;
 }
 
 img#mic {
@@ -100,9 +106,10 @@ img#mic:hover {
 div#buttons {
 	position:relative;
 	text-align:center;
+	width:99%;
 	top:250px;
-	left:30px;
 	margin:auto;
+	padding-left:20px;
 }
 
 button.buttons {
@@ -125,6 +132,11 @@ p#translate {
 }
 
 a.translate {
+	text-decoration:none;
+	color:blue;
+}
+
+a.translate:hover {
 	text-decoration:underline;
 	color:blue;
 }
@@ -150,4 +162,8 @@ div#right {
 li.inlineList {
 	display:inline;
 	margin:2px;
+}
+
+li.inlineList:hover {
+	text-decoration:underline;
 }
